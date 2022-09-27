@@ -19,3 +19,5 @@ if (isHuman) {
 }
 
 console.log(`O ${nome} tem ${age} anos e ele ${resultado}`)
+
+var teste
