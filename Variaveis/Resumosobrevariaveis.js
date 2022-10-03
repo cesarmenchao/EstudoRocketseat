@@ -20,4 +20,6 @@ if (isHuman) {
 
 console.log(`O ${nome} tem ${age} anos e ele ${resultado}`)
 
-var teste
+let teste = "Mariana eu te amo muito"
+
+console.log(teste)
