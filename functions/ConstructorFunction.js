@@ -13,7 +13,7 @@ function Person (name){
     }
 }
 
-const cesar = new Person('Cesar')
+const cesar = new Person('Cesar')// metodo construtor instancia um novo objeto referente a function criada
 const mari = new Person('Mari')
 console.log(cesar.walk())
 
