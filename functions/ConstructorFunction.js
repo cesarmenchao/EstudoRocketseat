@@ -6,17 +6,17 @@
     *this keyword
 */
 
-function Person (name){
-    this.name = name
-    this.walk = function() {
-         return this.name + " Está andando"
-    }
+function Person(name) {
+  this.name = name;
+  this.walk = function () {
+    return this.name + " Está andando";
+  };
 }
 
-const cesar = new Person('Cesar')// metodo construtor instancia um novo objeto referente a function criada
-const mari = new Person('Mari')
-console.log(cesar.walk())
+const cesar = new Person("Cesar"); // metodo construtor instancia um novo objeto referente a function criada
+const mari = new Person("Mari");
+console.log(cesar.walk());
 
-let data = new Date('2022-10-03')
-let teste = new String()
-console.log(data)
+let data = new Date("2022-10-03");
+let teste = new String();
+console.log(data);
