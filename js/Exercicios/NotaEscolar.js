@@ -7,33 +7,32 @@
 // * entre 60 - 69   -   D
 // * menor que 60    -   F
 
-let Valor = 101
-let NotaA =  Valor >=90 && Valor <= 100;
-let NotaB =  Valor >=80 && Valor <= 89;
-let NotaC =  Valor >=70 && Valor <= 79;
-let NotaD =  Valor >=60 && Valor <= 69;
-let NotaF =  Valor > 0  && Valor <= 60;
+let Valor = 101;
+let NotaA = Valor >= 90 && Valor <= 100;
+let NotaB = Valor >= 80 && Valor <= 89;
+let NotaC = Valor >= 70 && Valor <= 79;
+let NotaD = Valor >= 60 && Valor <= 69;
+let NotaF = Valor > 0 && Valor <= 60;
 
-let NotaFinal
-VericaNota(Valor)
-function VericaNota(Valor){
-    if (NotaA) {
-        NotaFinal= 'A'
-        console.log(NotaFinal)
-    }else if (NotaB) {
-         NotaFinal= 'B'
-        console.log(NotaFinal)
-    }else if (NotaC) {
-         NotaFinal= 'C'
-        console.log(NotaFinal)
-    }else if (NotaD) {
-         NotaFinal= 'D'
-        console.log(NotaFinal)
-    }else if (NotaF) {
-         NotaFinal= 'F'
-        console.log(NotaFinal)
-    }else {
-        console.log('Nota Invalida')
-    }
-    
+let NotaFinal;
+VericaNota(Valor);
+function VericaNota(Valor) {
+  if (NotaA) {
+    NotaFinal = "A";
+    console.log(NotaFinal);
+  } else if (NotaB) {
+    NotaFinal = "B";
+    console.log(NotaFinal);
+  } else if (NotaC) {
+    NotaFinal = "C";
+    console.log(NotaFinal);
+  } else if (NotaD) {
+    NotaFinal = "D";
+    console.log(NotaFinal);
+  } else if (NotaF) {
+    NotaFinal = "F";
+    console.log(NotaFinal);
+  } else {
+    console.log("Nota Invalida");
+  }
 }
