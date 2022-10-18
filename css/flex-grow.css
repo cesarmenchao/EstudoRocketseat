@@ -1,0 +1,14 @@
+/* O crescimento do item dentro do container em relaçao aos espaços vazios, vem como padrao 0 se aplica o 1 ele pega todo o espaço disponivel e aplica a ele
+se outro elemento aplicar 2 ou 3, ele pegara 2 fraçoes do espaço */
+
+.box{
+  display: flex;
+   border: 1px dashed red;
+}
+.box div{
+  border: 1px solid;
+ 
+}
+.box div:nth-child(2){
+    flex-grow: 1;
+}

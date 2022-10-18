@@ -1,0 +1,17 @@
+* {
+  margin: 0; /* Retiro a margin que vem por padrao no navegador*/
+}
+body{
+  min-height: 100vh; /*passo o tamanho total do body, como quero trabalhar o footer pra ter um preenchimento de espaço*/
+  display: flex;
+}
+footer{
+  margin-top: auto; /*ao dar o margin top auto, ele ja desce pois existe o body!*/
+  background-color: gray;
+  color:white;
+  height: 8rem;
+  flex: 1;
+  display: flex;
+  justify-content: center; /*alinho o conteudo ao centro da caixa*/
+  align-items: center; /*alinho os itens no centro*/
+}

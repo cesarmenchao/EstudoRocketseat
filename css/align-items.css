@@ -1,0 +1,10 @@
+.box{
+  display: flex;
+ border: 1px dashed red;
+ align-items: flex-end; 
+  height: 150;
+}
+.box div{
+  border: 1px solid;
+  
+}

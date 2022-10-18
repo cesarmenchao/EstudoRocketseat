@@ -1,0 +1,11 @@
+img{
+  width: 30%; 
+  height: auto;
+}
+
+.gallery{
+  display: flex; 
+  flex-wrap: wrap; /*para se ajustar e quebrar a linha*/
+  gap: .8rem; /*espaçamento entre as imagens*/
+  justify-content: center;
+}

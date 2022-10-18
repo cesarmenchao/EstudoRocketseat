@@ -1,0 +1,15 @@
+/* ##flex 
+    -shorthand
+    -flex-grow flex shrink flex-basis
+    -podem ter 1, 2  ou 3 valores */
+
+    .box{
+  display: flex;
+   border: 1px dashed red;
+}
+.box div{
+  border: 1px solid;
+  flex: 0 1 50px ;
+} 
+
+/* grow > shrink > basis */

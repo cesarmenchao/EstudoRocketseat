@@ -1,0 +1,12 @@
+button{
+  display: flex;
+  align-items: center;/*Alinha os elementos no centro*/
+  line-height: 0; /*Melhor para trabalhar com imagemk e texto, pois por padrao vem um espaçamento*/
+  gap: .4rem; /* espaçamento aplicado*/
+}
+
+button img{
+  width: 2rem; 
+  height: 2rem;
+  /* tamanho do botao */
+}

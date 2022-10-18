@@ -1,0 +1,15 @@
+/* flex basis por padrao ele vem auto, aplica uma largura flexivel  */
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+   border: 1px dashed red;
+}
+.box div{
+    border: 1px solid;
+    flex-basis: 50px; 
+}
+.box div:nth-child(1){
+  width: 250px;
+}

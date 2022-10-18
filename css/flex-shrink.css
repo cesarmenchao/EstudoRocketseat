@@ -1,0 +1,14 @@
+/* Encolher do item dentro do container, todos por padrao vem com shrink 1, quando passa 0 ele aumenta e passando >1 ele encolhe */
+.box{
+  display: flex;
+   border: 1px dashed red;
+   width: 160px;
+}
+.box div{
+  border: 1px solid;
+  flex-basis: 50px;
+ 
+}
+.box div:nth-child(2){
+  flex-shrink: 4;
+}

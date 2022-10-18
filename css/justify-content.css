@@ -1,0 +1,18 @@
+/* alinho todo o conteudo de dentro de uma caixa, podendo ser 
+justify-content: space-between;
+justify-content: space-around;
+justify-content:space-evenly;
+etc...
+*/
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+ border: 1px dashed red;
+  height: 150;
+}
+.box div{
+  border: 1px solid;
+  
+}

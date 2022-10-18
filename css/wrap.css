@@ -1,0 +1,13 @@
+/* se ajusta ao tamanho da tela, quebrando a linha */
+
+.box{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+ border: 1px dashed red;
+  
+}
+.box div{
+  border: 1px solid;
+  width: 80px;
+}
