@@ -13,5 +13,5 @@ body{
 
 .box::after {
     content:"Aqui vem uma mensagem";
-    color: white;
+    color: white; 
 }
